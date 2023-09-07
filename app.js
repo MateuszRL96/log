@@ -24,7 +24,14 @@ class MultStepForm {
   }
 
   changeStep = (v) => {
+    const activeStep = document.querySelector(".active");
+    let stepIndex = this.steps.indexOf(activeStep);
+    this.steps[stepIndex].classList.remove("active");
+    stepIndex += v;
+    if (v === 0) stepIndex = 0;
 
+    if (stepIndex < 0 || stepIndex >= this/this.steps.length) stepIndex = 0;
+    this.steps[stepIndex].classList.add("active");
   }
 
   resetSteps = () => {
