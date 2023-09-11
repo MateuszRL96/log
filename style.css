@@ -22,6 +22,18 @@
     border-radius: 8px;
     background-color: white;
   }
+
+  .container .step-4{
+    height: 600px;
+  }
+
+  .container .step-4 input{
+    margin-top: 20px;
+  }
+
+  .container .step-4 input .plik{
+    margin-top: 10px;
+  }
   
   .container h4 {
     text-align: center;
@@ -39,7 +51,7 @@
     margin-top: 20px;
   }
   
-  .field-control input {
+.pole  {
     width: 100%;
     height: 40px;
     margin: 4px auto;
@@ -49,6 +61,8 @@
     background-color: white;
     box-shadow: 0 0.2rem 0.4rem #0000003d;
   }
+
+
   
   .field-control input::placeholder {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
