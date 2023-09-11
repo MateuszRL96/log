@@ -11,7 +11,7 @@
     <div class="container">
         <h4>Rejestracja</h4>
         <form action="#">
-            <div class="step step-1 active">
+            <div class="step step-1">
                 <div class="field-control">
                     <input type="text" id="username" name="username" 
                     required placeholder="Nazwa uzytkownika">
@@ -32,6 +32,9 @@
                     <button type="button" class="next-btn">Dalej</button>
                 </div>
             </div>
+
+
+
             <div class="step step-2">
 
                 <div class="field-control">
@@ -49,7 +52,10 @@
                     <button type="button" class="next-btn">Dalej</button>
                 </div>
             </div>
-            <div class="step step-3">
+
+
+
+            <div class="step step-3 ">
                 <div class="field-control">
                     <input type="text" id="postal-code" name="postal-code" 
                     placeholder="Kod pocztowy">
@@ -59,6 +65,38 @@
                     <input type="checkbox" id="tos" name="tos" >
                     <label for="tos"> Akceptuje regulamin</label>
                 </div>
+
+                <div class="buttons-container">
+                    <button type="button" class="previous-btn">Wstecz</button>
+                    <button type="submit" class="submit-btn">Wyslij</button>
+                </div>
+            </div>
+
+
+            <div class="step step-4 active">
+                <div class="field-control">
+                    <input type="text" id="postal-code1" class="pole" name="postal-code" 
+                    placeholder="Rodzaj dokumentu">
+                    <input type="file" class="plik" name="plik" accept="lista typów">
+
+                    <input type="text" id="postal-code2" class="pole" name="postal-code" 
+                    placeholder="Wniosek o rejestrację">
+                    <input type="file" class="plik" name="plik" accept="lista typów">
+
+                    <input type="text" id="postal-code3" class="pole" name="postal-code" 
+                    placeholder="Dowód własności pojazdu">
+                    <input type="file" class="plik" name="plik" accept="lista typów">
+
+                    <input type="text" id="postal-code4" class="pole" name="postal-code" 
+                    placeholder="Dokument tożsamości">
+                    <input type="file" class="plik" name="plik" accept="lista typów">
+
+                    <input type="text" id="postal-code5" class="pole" name="postal-code" 
+                    placeholder="Dowód rejestracyjny">
+                    <input type="file" class="plik" name="plik" accept="lista typów">
+                </div>
+
+                
 
                 <div class="buttons-container">
                     <button type="button" class="previous-btn">Wstecz</button>
